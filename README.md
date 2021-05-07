@@ -24,7 +24,7 @@ git clone git@github.com:jasonrowsell/weather
 open the html file from terminal
 
 ```sh
-cd thermostat
+cd weather
 open src/index.html
 ```
 
