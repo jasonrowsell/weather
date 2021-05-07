@@ -1,6 +1,4 @@
-# Weather
-
-# Thermostat App
+# Weather App
 
 Weather app built with JavaScript and a weather API.
 
