@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/weather.css" />
+    <title>Weather</title>
+  </head>
+  <script src="https://unpkg.com/feather-icons"></script>
+      
+    <body>
+      <div class="weather">
+    <div class="navbar">
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="./thermostat.html">Thermostat</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="weather-side">
+        <div class="weather-gradient"></div>
+        <div class="date-container">
+          <h2 class="date-dayname"></h2>
+          <span class="date-day">6 May 2021</span>
+          <i class="location-icon" data-feather="map-pin"></i>
+          <span class="location">London</span>
+        </div>
+
+        <div class="weather-container">
+          <h1 class="weather-temp"></h1></br>
+          <h3 class="weather-desc">Sunny</h3>
+        </div>
+      </div>
+      <div class="info-side">
+        <div class="today-info-container">
+          <div class="today-info">
+
+            <div class="pressure">
+              <span class="title">Pressure</span>
+              <span class="value" id="weather-pressure">0</span>
+              <div class="clear"></div>
+            </div>
+
+            <div class="humidity">
+              <span class="title">Humidity</span>
+              <span class="value" id="weather-humidity">39%</span>
+              <div class="clear"></div>
+            </div>
+            
+            <div class="wind">
+              <span class="title">Wind</span>
+              <span class="value" id="weather-speed">8 km/h</span>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="week-container">
+          <ul class="week-list">
+            <li class="active">
+              <i class="day-icon" data-feather="sun"></i>
+              <span class="day-name" id="day-one">Thu</span>
+              <span class="day-temp">12&#176;</span>
+            </li>
+
+            <li>
+              <i class="day-icon" data-feather="cloud"></i>
+              <span class="day-name" id="day-two">Fri</span>
+              <span class="day-temp">14&#176;</span>
+            </li>
+
+            <li>
+              <i class="day-icon" data-feather="cloud-snow"></i>
+              <span class="day-name" id="day-three">Sat</span>
+              <span class="day-temp">8&#176;</span>
+            </li>
+
+            <li>
+              <i class="day-icon" data-feather="cloud-rain"></i>
+              <span class="day-name" id="day-four">Sun</span>
+              <span class="day-temp">12&#176;</span>
+            </li>
+            <div class="clear"></div>
+          </ul>
+
+        </div>
+        <div class="location-container">
+          <button class="location-button">
+            <i data-feather="map-pin"></i>
+            <span>Change location</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- <h1>Current temperature: <span id="current-temperature">20</span></h1>
+    <select id="current-city">
+      <option value="London">London</option>
+      <option value="New york">New York</option>
+      <option value="Paris">Paris</option>
+      <option value="Tokyo">Tokyo</option>
+    </select> -->
+    <script src="../js/weatherInterface.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
