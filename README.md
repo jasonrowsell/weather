@@ -4,7 +4,7 @@ Weather app built with JavaScript and a weather API.
 
 ## 👀 Live demo
 
-**[Check it out here.](#)** The dates weather descriptions update automatically. As the user, you can change location and the relevant information will be displayed.
+**[Check it out here.](https://jasonrowsell-weather.herokuapp.com)** The dates weather descriptions update automatically. As the user, you can change location and the relevant information will be displayed.
 
 ![Home](./public/images/weather.gif)
 ![Index](./public/images/index.png)
