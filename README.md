@@ -29,3 +29,10 @@ open src/index.html
 ```
 
 At this point the application should be running on your machine at file:///Users/username/weather/src/index.html (or equivalent)
+
+## Built Using
+
+- HTML
+- CSS
+- JavaScript
+- <a href="https://openweathermap.org/api">Open Weather API</a>
