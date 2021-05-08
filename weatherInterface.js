@@ -43,8 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // updates current weather conditions
 
   function updateWeather() {
-    // currentCity.addEventListener("change", (event) => {
-    // const city = event.target.value;
     const url = `http://api.openweathermap.org/data/2.5/weather?q=London&appid=a3d9eb01d4de82b9b8d0849ef604dbed&units=metric`;
 
     fetch(url)
@@ -57,6 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
         weatherHumidity.innerHTML = data.main.humidity + "%";
         weatherWind.innerHTML = data.wind.speed + " km/h";
       });
-    // });
   }
 });
