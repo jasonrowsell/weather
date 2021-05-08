@@ -1,6 +1,4 @@
-# Weather
-
-# Thermostat App
+# Weather App
 
 Weather app built with JavaScript and a weather API.
 
@@ -15,7 +13,7 @@ Weather app built with JavaScript and a weather API.
 
 To run locally:
 
-Get a copy of the Thermostat app running on your local machine (for playing around, testing or development).
+Get a copy of the Weather app running on your local machine (for playing around or development).
 
 ```sh
 git clone git@github.com:jasonrowsell/weather
@@ -24,7 +22,7 @@ git clone git@github.com:jasonrowsell/weather
 open the html file from terminal
 
 ```sh
-cd thermostat
+cd weather
 open src/index.html
 ```
 
