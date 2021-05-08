@@ -34,3 +34,4 @@ At this point the application should be running on your machine at file:///Users
 - CSS
 - JavaScript
 - <a href="https://openweathermap.org/api">Open Weather API</a>
+- <a href="https://feathericons.com/">Feather</a>
