@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient(135deg, #09203f, #537895);
   display: flex;
   display: -webkit-box;
@@ -40,7 +40,7 @@ body {
   position: relative;
   height: 100%;
   border-radius: 25px;
-  background-image: url("https://images.unsplash.com/photo-1454793147212-9e7e57e89a4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80");
+  background-image: url('https://images.unsplash.com/photo-1454793147212-9e7e57e89a4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80');
   background-size: cover;
   width: 300px;
   -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
@@ -48,7 +48,7 @@ body {
   -webkit-transition: -webkit-transform 300ms ease;
   transition: -webkit-transform transform 300ms ease;
   -o-transition: transform 300ms ease;
-  transition: transform 300ms ease, -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
   -webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
   transform: translateZ(0) scale(1.02) perspective(1000px);
   float: left;
@@ -114,11 +114,11 @@ body {
 }
 .today-info {
   padding: 15px;
-  margin: 0 25px 25px 25px;
+  margin: 0 25px 25px;
   border-radius: 10px;
 }
 .today-info > div:not(:last-child) {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 .today-info > div .title {
   float: left;
@@ -156,7 +156,7 @@ body {
 }
 .week-list > li .day-name {
   display: block;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0;
   text-align: center;
 }
 .week-list > li .day-icon {
@@ -168,7 +168,7 @@ body {
 .week-list > li .day-temp {
   display: block;
   text-align: center;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0;
   font-weight: 700;
 }
 .location-container {
@@ -185,7 +185,7 @@ body {
   border: none;
   border-radius: 25px;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
   -webkit-transition: transform 200ms ease;
