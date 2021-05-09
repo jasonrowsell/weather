@@ -1,5 +1,7 @@
 # Weather App
 
+[![CodeFactor](https://www.codefactor.io/repository/github/jasonrowsell/weather/badge)](https://www.codefactor.io/repository/github/jasonrowsell/weather)
+
 Weather app built with JavaScript and a weather API.
 
 ## 👀 Live demo
